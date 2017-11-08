@@ -55,4 +55,4 @@
 
 ### 3.1 Adatbázisterv
 
-![Database terv](pictures/database.png)
+![Database terv](pictures/database.PNG)
