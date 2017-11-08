@@ -16,5 +16,10 @@ public class StoreService {
     public void addStore(Store store) {
         storeRepository.save(store);
     }
-
+    /*
+        Kölcsönző eltávolítása a rendszerből:
+    */
+    public void removeStore(Store store) {
+        storeRepository.delete(store);
+    }
 }

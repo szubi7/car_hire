@@ -16,5 +16,10 @@ public class CarService {
     public void addCar(Car car) {
         carRepository.save(car);
     }
-
+    /*
+        Autó törlése a rendszerből:
+    */
+    public void removeCar(Car car) {
+        carRepository.delete(car);
+    }
 }

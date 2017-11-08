@@ -16,5 +16,10 @@ public class CustomerService {
     public void addCustomer(Customer customer) {
         customerRepository.save(customer);
     }
-
+    /*
+        Vásárló eltávolítása a rendszerből:
+    */
+    public void removeCustomer(Customer customer) {
+        customerRepository.delete(customer);
+    }
 }

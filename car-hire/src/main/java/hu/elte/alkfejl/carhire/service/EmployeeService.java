@@ -16,5 +16,10 @@ public class EmployeeService {
     public void addEmployee(Employee employee) {
         employeeRepository.save(employee);
     }
-
+    /*
+        ÚAlkalmazott eltávolítása a rendszerből:
+    */
+    public void removeEmployee(Employee employee) {
+        employeeRepository.delete(employee);
+    }
 }
