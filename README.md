@@ -50,3 +50,9 @@
  2. Böngészhetünk az autók között, vagy foglalhatunk időpontot.
  3. Kiválasztunk egy autót.
  4. Megadjuk mikor vesszük fel az autót.
+
+## 3. Implementáció
+
+### 3.1 Adatbázisterv
+
+![Database terv](pictures/database.png)
